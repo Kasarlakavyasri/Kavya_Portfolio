@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React/*, { useState } */from 'react';
 import './Navbar.css'; // Import CSS file for styling
 //import { FaMoon, FaSun } from 'react-icons/fa'; // Import icons from react-icons
 
 const Navbar = () => {
-  const [theme, setTheme] = useState('light'); // State for managing the theme
+  /*const [theme, setTheme] = useState('light'); // State for managing the theme
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light'; // Toggle between light and dark themes
     setTheme(newTheme);
     document.documentElement.setAttribute('data-theme', newTheme); // Apply the new theme to the HTML element
-  };
+  };*/
 
   return (
     <nav className="navbar">

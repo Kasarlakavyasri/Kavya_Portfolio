@@ -4,7 +4,7 @@ import python from './images/python.png';
 import java from './images/java.png';
 import html from './images/html.png';
 import js from './images/js.png';
-import C from './images/C.png';
+//import C from './images/C.png';
 import Cplus from './images/Cplus.png';
 import php from './images/php.png';
 import css from './images/css.png';
