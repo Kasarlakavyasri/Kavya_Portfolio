@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app-container{
+  background-color: rgb(14, 14, 14);
+  background-image: flex;
+  background-position: fit-screen;
+}
+
+.app{   
+  
+  background-size: cover; /* Cover the entire container without repeating */
+  background-position: center; /* Center the background image */
 }

@@ -1,0 +1,89 @@
+/* Experience.css */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.work-experience-container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+  background-color: transparent; /* Change background color to transparent */
+  color: white;
+  text-align: center;
+}
+
+.work-experience-container h2, h4 {
+  margin: 10px 0;
+}
+
+.experience-item {
+  text-align: justify;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 0 10px 15px 5px rgba(248, 226, 58, 0.1);
+  max-width: 800px;
+}
+
+.experience-title h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.experience-title p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #666;
+  text-align: center;
+}
+
+.experience-description p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .experience-item {
+    padding: 15px;
+  }
+
+  .experience-title h3 {
+    font-size: 22px;
+  }
+
+  .experience-title p {
+    font-size: 14px;
+  }
+
+  .experience-description p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .work-experience-container {
+    padding: 10px;
+  }
+
+  .experience-item {
+    padding: 10px;
+  }
+
+  .experience-title h3 {
+    font-size: 20px;
+  }
+
+  .experience-title p {
+    font-size: 12px;
+  }
+
+  .experience-description p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,105 @@
+/* Introduction.css */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.intro-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1200px;
+  background-color: color-mix(in pink 180, 50%, 70%);
+  color: white;
+  box-shadow: 0 10px 15px 5px rgba(248, 226, 58, 0.1); /* Add box shadow for the container */
+}
+
+.name {
+  color: white;
+  font-family: 'Bradley Hand ITC';
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.intro-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.intro-text {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.intro-text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.intro-text p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.intro-photo {
+  flex: 0 0 auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.intro-photo img {
+  width: 150px;
+  height: 200px;
+  border-radius: 10%;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .intro-container {
+    padding: 15px;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+
+  .intro-text p {
+    font-size: 16px;
+  }
+
+  .intro-photo img {
+    width: 120px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-container {
+    padding: 10px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .intro-text p {
+    font-size: 14px;
+  }
+
+  .intro-photo img {
+    width: 100px;
+    height: 140px;
+  }
+}

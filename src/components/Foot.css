@@ -1,0 +1,133 @@
+/* Footer.css */
+.footer {
+  border-top: 1px solid #e9dc7c;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 60px;
+  color: white;
+  background-color: transparent;
+}
+
+.footer-contents {
+  flex: 1;
+  max-width: 800px;
+  padding: 20px;
+  background-color: transparent;
+  margin-right: 20px;
+}
+
+.footer-contents h3 {
+  text-align: left;
+  color: white;
+}
+
+.social {
+  flex: 1;
+  max-width: 400px;
+  padding: 20px;
+  margin-right: 20px; /* Adjust margin-right */
+  border-right: 1px solid #e9dc7c;
+  background-color: transparent;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.social ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.social img {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.social h3 {
+  text-align: left;
+}
+
+.social img:hover {
+  transform: rotate(-10deg);
+}
+
+.social ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.social ul li a:hover {
+  color: #ebd952;
+  text-decoration: underline;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #ebd952;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #d8bd08;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social,
+    .footer-contents {
+        max-width: 100%;
+        border-right: none;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .social ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .social img {
+        margin: 5px;
+    }
+}

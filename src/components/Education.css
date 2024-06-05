@@ -1,0 +1,77 @@
+/* Education.css */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.education-container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+  background-color: transparent; /* Change background color to transparent */
+  color: white;
+  text-align: center;
+}
+
+h2, h4 {
+  align-items: center;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.education-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.education-item {
+  width: calc(45% - 10px); /* Adjust width and margin as needed */
+  padding: 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 0 10px 15px 5px rgba(248, 226, 58, 0.1);
+}
+
+.education-item h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.education-item p {
+  margin-bottom: 10px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .education-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education-item {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .education-container {
+    padding: 10px;
+  }
+
+  .education-item {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .education-item h3 {
+    font-size: 20px;
+  }
+
+  .education-item p {
+    font-size: 14px;
+  }
+}

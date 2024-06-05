@@ -1,0 +1,73 @@
+/* Projects.css */
+.projects-container {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 40px;
+  background-color: transparent; /* Change background color to transparent */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for the container */
+  color: white;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ensure even spacing between project cards */
+}
+
+.project-card {
+  width: 45%; /* Adjust width to fit two cards side by side */
+  margin: 20px; /* Add margin between cards */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px 5px rgba(248, 226, 58, 0.1);
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background for project card */
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0; /* Rounded corners for top of image */
+}
+
+.project-info {
+  padding: 15px;
+}
+
+.project-info h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: white;
+  text-align: center;
+}
+
+.project-info p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #ccc;
+  text-align: center;
+}
+
+.project-info a {
+  font-size: 14px;
+  color: #d4df52;
+  text-decoration: none;
+  text-align: center;
+  display: block; /* Make link block-level for easier clicking */
+}
+
+.project-info a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .projects-container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .project-card {
+    width: 100%; /* Make project cards full-width on small screens */
+    margin: 10px 0;
+  }
+}
