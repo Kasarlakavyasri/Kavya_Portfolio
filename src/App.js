@@ -41,10 +41,12 @@ function App() {
       <Navbar />
       <main className="main-content">
         <Introduction />
+        <Education /> 
+        <Skills />
         <Experience /> 
         <Projects /> 
-        <Skills />
-        <Education />       
+        
+              
         
          
         
