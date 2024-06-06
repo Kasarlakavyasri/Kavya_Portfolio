@@ -43,7 +43,7 @@ const Footer = () => {
 
       {/* Footer Contents */}
       <div className="footer-contents">
-        <h3>Get in touch</h3>
+        {/*<h3>Get in touch</h3>*/}
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name"></label>
@@ -53,7 +53,7 @@ const Footer = () => {
             <label htmlFor="message"></label>
             <textarea id="message" name="message" rows="4" required placeholder='Type your message'></textarea>
           </div>
-          <button type="submit">Contact Me</button>
+          <button type="submit">Get in touch</button>
         </form>
       </div>
     </footer>

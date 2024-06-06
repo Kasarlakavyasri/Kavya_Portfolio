@@ -1,9 +1,9 @@
 import React from 'react';
 import './Projects.css'; // Import CSS file for styling
-import VMS1 from './images/VMS1.png'; // Import project images
+import VMS1 from './images/event.jpeg'; // Import project images
 import cnn from './images/cnn.jpeg';
-import AMS from './images/AMS.png';
-import hdp from './images/hdp.png';
+import AMS from './images/ams.jpeg';
+import hdp from './images/hdp.jpeg';
 
 const Projects = () => {
   const projects = [
@@ -36,11 +36,11 @@ const Projects = () => {
   return (
     <section id="projects" className="projects-container">
       <h2>My Projects</h2>
-      <h4>Feel free look at all my Projects on GitHub</h4>
+      <h4>Feel free to look at all my Projects on GitHub</h4>
       <div className="projects-list">
         {projects.map((project, index) => (
           <div key={index} className="project-card">
-            {/*<img src={project.image} alt={project.name} className="project-image" />*/}
+            <img src={project.image} alt={project.name} className="project-image" />
             <div className="project-info">
               <h3>{project.name}</h3>
               <p>{project.technologies}</p>
