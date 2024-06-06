@@ -8,7 +8,7 @@ import hdp from './images/hdp.jpeg';
 const Projects = () => {
   const projects = [
     {
-      name: 'Venue Management System',
+      name: 'Event/Venue Management System',
       technologies: 'React.js, MongoDB, Node.js, Flask, CSS, JavaScript, Figma',
       githubLink: 'https://github.com/Kasarlakavyasri/EventVenue-Management-System',
       image: VMS1,
