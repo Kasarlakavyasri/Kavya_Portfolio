@@ -8,6 +8,17 @@ const Experience = () => {
       <h4>Where I've interned and worked during my career.</h4>
       <div className="experience-item">
         <div className="experience-title">
+        <h3>Assistant Manager - Business Operations</h3>
+        <p>INDIANA UNIVERSITY | MAY 2023 - MAY 2024</p>
+        </div>
+        <div className="experience-description">
+          <p>
+          I streamlined inventory management using SQL and Power BI, enhancing operational efficiency, reducing wastage, and saving costs. Leading JIRA-driven analysis aligned stakeholder needs with financial data. This resulted in a 20% cost reduction and a 15% supply chain efficiency improvement. Developed training programs for a 10% service quality score increase. Designed an inventory dashboard integrating CRM data for real-time insights and improved customer satisfaction. Resolved complaints, boosting satisfaction by 25% with CRM-driven process improvements. These experiences showcase my skills in data analysis, process optimization, and enhancing customer experience, contributing to business efficiency and success.
+          </p>
+        </div>
+      </div>
+        <div className="experience-item">
+        <div className="experience-title">
           <h3>Associate Professional Software Engineer</h3>
           <p>DXC TECHNOLOGY | MAY 2021 - JULY 2022</p>
         </div>
