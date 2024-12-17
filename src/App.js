@@ -42,8 +42,9 @@ function App() {
       <main className="main-content">
         <Introduction />
         <Education /> 
-        <Skills />
+        
         <Experience /> 
+        <Skills />
         <Projects /> 
         
               

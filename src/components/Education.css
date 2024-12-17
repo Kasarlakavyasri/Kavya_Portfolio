@@ -1,6 +1,7 @@
 /* Education.css */
 html {
   box-sizing: border-box;
+  background-color: white;
 }
 *, *:before, *:after {
   box-sizing: inherit;
